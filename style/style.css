@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-style: italic;
+    font-family: cursive;
+}
+.imagens {
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    filter: blur(6px);
+}
+.imagens:hover {
+    width: 300px;
+    height: 300px;
+    filter: blur(0px);
+}
+li {
+    list-style: none;
+}
+ul {
+    display: flex;
+    gap: 30px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+li, h1 {
+    text-align: center;
+    color: white;
+}
+input {
+    border-radius: 20px;
+    opacity: 0.5;
+}
+input:hover{
+    text-align: center;
+    width: 200px;
+    opacity: 100%;
+}
